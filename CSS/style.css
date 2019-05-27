@@ -1,0 +1,204 @@
+/*media only body*/
+@media only screen and (max-width: 700px) {
+body {
+ 
+ text-align: center;
+
+    }
+}
+
+
+	body {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0px;
+	margin: 0px;
+	background-color: #f4f4f4;
+
+	
+	}
+
+
+/*media only container*/
+/* Global */
+@media only screen and (max-width: 700px) {
+.container {
+
+width: 80%;
+margin: auto; 
+overflow: hidden;
+
+
+    }
+}
+
+
+/* Global */
+.container {
+
+width: 80%;
+margin: auto; 
+overflow: hidden;
+
+}
+
+/*Header*/
+
+/*media only container for headerdiv*/
+@media only screen and (max-width: 700px) {
+ .headerdiv {
+ 
+ display: flex;
+justify-content: space-between;
+flex-direction: column;
+flex-direction: column; }
+
+}
+/*Container for header only*/
+.headerdiv {
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 10px;
+
+}
+
+/* Header */
+header{
+
+background-color: #35424a;
+border-bottom: 2px solid #ff6600;
+color: white;
+min-height: 70px;
+
+
+
+}
+
+nav {
+
+margin-top: 5px;
+ 
+}
+
+/*navigation links inside header*/ 
+nav a {
+
+color: white;
+text-decoration: none;
+padding: 10px;
+
+}
+
+.acmespan{
+	color: #ff6600
+}
+/*span for 'Home' navigation link*/
+.viewedpagespan {
+	color: #ff6600;
+}
+/*span for 'Home' navigation link*/
+.viewedpagespan:hover {
+	color:  #d9d9d9;
+}
+/*span for 'About' and 'Services' navigation link*/
+.pagespan:hover {
+	color:  #d9d9d9;
+}
+
+/*Affordable webdesign banner*/
+
+
+ .webdesignbannerdiv{
+min-height: 400px;
+background: url(../Images/showcase.jpg) no-repeat 0 -400px;
+padding-top: 20px;
+text-align: center;
+color: white;
+margin-bottom: 0px;
+ }
+
+.webdesignheader {
+	margin-top: 120px;
+	font-size: 55px;
+	margin-bottom: 5px;
+	
+}
+
+.webdesignparagraph{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+/*newsletter section*/
+
+.newsletterdiv {
+	margin-top: 0px;
+	padding: 15px;
+	color: white;
+	background-color: #35424a;
+	display: flex;
+	flex-direction: row;
+	align-items: center; 
+	justify-content: space-between;
+	
+}
+
+form {
+	margin-right: 100px;
+}
+
+.subcribeheader {
+	margin-left: 100px;
+}
+
+form input {
+	padding: 4px;
+	width: 250px;
+	height: 25px;
+}
+
+form button {
+border: 2px solid #ff6600;
+background-color: #ff6600;
+color: white;
+height: 38px;
+width: 130px;
+
+}
+
+/*Markup language boxes*/
+
+.boxes {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.images {
+	height: 80px;
+	padding: 5px;
+	
+
+}
+
+.box {
+text-align: center;
+}
+
+.box > p {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+footer {
+	text-align: center;
+
+}
